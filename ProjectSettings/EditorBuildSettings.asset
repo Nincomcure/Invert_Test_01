@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/ProjectsWIP/ArtEditors/AnimeshOld/Demo/Scenes/Animesh.unity
+    guid: 666057d914b2f9949a9ff86232f37887
+  - enabled: 0
+    path: Assets/WorkSpace/Zmisc/FlareDemoTest.unity
+    guid: 64cd99dc440b62148a05656a42cba4f3
+  - enabled: 0
+    path: Assets/WorkSpace/FlareDemoTestScene.unity
+    guid: 0f620283b14abdd4698a8c3122946f8f
+  - enabled: 0
+    path: Assets/WorkSpace/Scenes/Tutorial1/FlareDemoTutorial2.unity
+    guid: 10319a91d06132a49bb6c418ef596020
+  - enabled: 0
+    path: Assets/WorkSpace/Scenes/Tutorial1/FlareDemoTutorial.unity
+    guid: 96b7665423e62734b8686215cc719c37
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/TidBits/SceneDoors/SceneDoorA.unity
+    guid: e92a01020b13862488d349b5ca87b97d
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/TidBits/SceneDoors/SceneDoorB.unity
+    guid: d8765b8fa7137fc46a76fb57aebb0721
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/FlareDemo2.unity
+    guid: c87657fc0a44c2243914ee3f56f062c0
+  - enabled: 0
+    path: Assets/TwoBitMachines/Safire2DCamera/Demo/SafireDemo.unity
+    guid: 8fa6a0b65d7075b48bb242cc2d0a6961
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/TidBits/OptionsBindingMenu.unity
+    guid: 051d8eba702fcec44a35fdf115ef9036
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/TidBits/OverworldMap/OverworldBeginMap.unity
+    guid: 3f3cb5a98da222f459534440cdd20b85
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/TidBits/OverworldMap/OverworldLevel1.unity
+    guid: 8561308834596d64cafee3e5ce72d857
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/TidBits/OverworldMap/OverworldLevel2.unity
+    guid: df931fbdb2638c14bb41a6476ad6a72a
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/TidBits/OverworldMap/OverworldLevel3.unity
+    guid: 2159bab5e7353504cbabc8a114a482ee
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/TidBits/OverworldMap/OverworldLevel4.unity
+    guid: fde87f6f9a9ef864bb18ce5b7a7df27b
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/TidBits/Map/MapExampleArea1.unity
+    guid: 392a118f430985841921f19282818b61
+  - enabled: 0
+    path: Assets/TwoBitMachines/FlareEngine/Demo/Scenes/TidBits/Map/MapExampleArea2.unity
+    guid: 1c85a69f567010b4dbede739126780b1
+  - enabled: 1
+    path: Assets/Scenes/Main_Menu.unity
+    guid: 8fea518f6b875ff42ad1b1569869228e
+  - enabled: 1
+    path: Assets/Scenes/CHase_Level_01_W_ENemies.unity
+    guid: 18f3f3ecbeb52ff40bb08af830b389f5
+  - enabled: 1
+    path: Assets/Scenes/Hub_level_01.unity
+    guid: c268a071ccccf124b9fc865cb0d84b43
+  - enabled: 1
+    path: Assets/Scenes/You_died_Menu.unity
+    guid: c1d1e7c9a744f7c448ded2ba1cc35181
+  - enabled: 1
+    path: Assets/Scenes/Endgame_meu.unity
+    guid: 6808dcf74c18bc442a9a8630094c1a34
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 15d72b83cfafd24459aa7a42d5d0fd2c, type: 2}

@@ -1,0 +1,2965 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4278175097109835266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3634757590488449876}
+  m_Layer: 8
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3634757590488449876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4278175097109835266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4529414036225922529}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8361388152522024247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7089518673108801179}
+  - component: {fileID: 7162592100124862294}
+  - component: {fileID: 2076786684429301171}
+  - component: {fileID: 2415938162751470852}
+  - component: {fileID: 8867772802321239133}
+  - component: {fileID: 5742754479700442218}
+  - component: {fileID: 2629562260462496903}
+  - component: {fileID: 8947201113788992321}
+  - component: {fileID: 7877368625289168894}
+  - component: {fileID: 8785167526178678382}
+  - component: {fileID: 5137017408998187517}
+  - component: {fileID: 7846553136514440037}
+  - component: {fileID: 2892635252887368415}
+  - component: {fileID: 92251204743527941}
+  - component: {fileID: 7916406465762518930}
+  - component: {fileID: 7346973118961048909}
+  - component: {fileID: 4187525119579700942}
+  - component: {fileID: 2352689135297798433}
+  - component: {fileID: 7064008789008171216}
+  - component: {fileID: 888917192026028155}
+  - component: {fileID: 6372370453497477559}
+  - component: {fileID: 8433118026455837648}
+  - component: {fileID: 4228963500117375429}
+  - component: {fileID: 1011379006943318179}
+  - component: {fileID: 1365533385701102187}
+  - component: {fileID: 6374402915957415880}
+  - component: {fileID: 6659535648459167823}
+  - component: {fileID: 2019169580452999454}
+  - component: {fileID: 1667333572187380295}
+  - component: {fileID: 8951544207578365087}
+  - component: {fileID: 52170732370015923}
+  - component: {fileID: 2067790602174156437}
+  - component: {fileID: 1315180601935981215}
+  - component: {fileID: 2303866910295785523}
+  - component: {fileID: 903772591098462078}
+  - component: {fileID: 4782070216334784358}
+  - component: {fileID: 3283045236045373823}
+  - component: {fileID: 6659782724294637302}
+  - component: {fileID: 1928510213302150636}
+  - component: {fileID: 9163968006473598860}
+  - component: {fileID: 6893850373344221055}
+  - component: {fileID: 3888559925399980723}
+  - component: {fileID: 5900084956320083693}
+  m_Layer: 8
+  m_Name: Soldier (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7089518673108801179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.75, y: -37.75, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4529414036225922529}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7162592100124862294
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 600b14177a5d3864faefaf660c5fb768, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: -118337667, guid: 45f61c26aebc9754cb417be93c015900, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.9843137}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3, y: 3}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &2076786684429301171
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.9}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 3, y: 3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.75, y: 1.8}
+  m_EdgeRadius: 0
+--- !u!114 &2415938162751470852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc5a25c181809f4493d523a8a014665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHealth: 0
+  initialized: 0
+  variableName: health
+  currentValue: 10
+  minValue: 0
+  maxValue: 10
+  save: 0
+  broadcastValue: 0
+  isScriptableObject: 0
+  saveManually: 0
+  soReference: {fileID: 0}
+  characterDirectionX: 1
+  callDamageEffect: 0
+  positionOffset: 1
+  worldEffect: 
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  onMinValue:
+    m_PersistentCalls:
+      m_Calls: []
+  onMaxValue:
+    m_PersistentCalls:
+      m_Calls: []
+  onValueIncreased:
+    m_PersistentCalls:
+      m_Calls: []
+  onValueDecreased:
+    m_PersistentCalls:
+      m_Calls: []
+  onLoadConditionTrue:
+    m_PersistentCalls:
+      m_Calls: []
+  onLoadConditionFalse:
+    m_PersistentCalls:
+      m_Calls: []
+  onSceneStart:
+    m_PersistentCalls:
+      m_Calls: []
+  saveFloat:
+    value: 0
+  foldOut: 1
+  eventFoldOut: 0
+  minFoldOut: 0
+  maxFoldOut: 0
+  changedFoldOut: 0
+  increasedFoldOut: 0
+  decreasedFoldOut: 0
+  changedGOFoldOut: 0
+  shieldFoldOut: 0
+  impactFoldOut: 0
+  damageFoldOut: 0
+  damageEffectFoldOut: 0
+  loadFoldOutTrue: 0
+  loadFoldOutFalse: 0
+  sceneStartFoldOut: 0
+  createSO: 0
+  recoveryTime: 0
+  counter: 0
+  hasShield: 0
+  readImpactOnly: 0
+  shieldDirection: 1
+  impactWE: 
+  character: {fileID: 0}
+  onShield:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpact:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8867772802321239133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7761d020ec0b05443be2e916ff4fb274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  render: {fileID: 7162592100124862294}
+  tree:
+    spriteFlip:
+    - nodes:
+      - nodes:
+        - nodes: []
+          sprite: flipLeft
+          signal: velXLeft
+          add: 0
+          active: 0
+          delete: 0
+          foldOut: 1
+          signalIndex: 0
+        - nodes: []
+          sprite: flipRight
+          signal: velXRight
+          add: 0
+          active: 0
+          delete: 0
+          foldOut: 1
+          signalIndex: 0
+        sprite: flipLeft
+        signal: velX
+        add: 0
+        active: 0
+        delete: 0
+        foldOut: 1
+        signalIndex: 0
+      sprite: flipLeft
+      signal: alwaysTrue
+      add: 0
+      active: 0
+      delete: 0
+      foldOut: 1
+      signalIndex: 0
+    branch:
+    - nodes: []
+      sprite: Death
+      signal: robotDeath
+      add: 0
+      active: 0
+      delete: 0
+      foldOut: 1
+      signalIndex: 0
+    - nodes: []
+      sprite: Jump
+      signal: jumping
+      add: 0
+      active: 0
+      delete: 0
+      foldOut: 1
+      signalIndex: 0
+    - nodes:
+      - nodes: []
+        sprite: Idle
+        signal: velXZero
+        add: 0
+        active: 0
+        delete: 0
+        foldOut: 1
+        signalIndex: 0
+      - nodes: []
+        sprite: Run
+        signal: velX
+        add: 0
+        active: 0
+        delete: 0
+        foldOut: 1
+        signalIndex: 0
+      sprite: Idle
+      signal: onGround
+      add: 0
+      active: 0
+      delete: 0
+      foldOut: 1
+      signalIndex: 0
+    signals:
+    - velX
+    - velXLeft
+    - velXRight
+    - velXZero
+    - velY
+    - velYUp
+    - velYDown
+    - velYZero
+    - onGround
+    - jumping
+    - alwaysTrue
+    - robotDeath
+    search: 
+    active: 0
+    createState: 0
+    stateFoldOut: 0
+    signalFoldOut: 0
+    signalIndex: 0
+    scrollIndex: 0
+    signalRef:
+      all:
+      - name: velX
+        use: 1
+        canDelete: 0
+      - name: velXLeft
+        use: 1
+        canDelete: 0
+      - name: velXRight
+        use: 1
+        canDelete: 0
+      - name: velXZero
+        use: 1
+        canDelete: 0
+      - name: velY
+        use: 1
+        canDelete: 0
+      - name: velYUp
+        use: 1
+        canDelete: 0
+      - name: velYDown
+        use: 1
+        canDelete: 0
+      - name: velYZero
+        use: 1
+        canDelete: 0
+      - name: onGround
+        use: 1
+        canDelete: 0
+      - name: jumping
+        use: 1
+        canDelete: 0
+      - name: airjump
+        use: 0
+        canDelete: 0
+      - name: running
+        use: 0
+        canDelete: 0
+      - name: ladderClimb
+        use: 0
+        canDelete: 0
+      - name: hover
+        use: 0
+        canDelete: 0
+      - name: swimming
+        use: 0
+        canDelete: 0
+      - name: floating
+        use: 0
+        canDelete: 0
+      - name: ceiling
+        use: 0
+        canDelete: 0
+      - name: crouch
+        use: 0
+        canDelete: 0
+      - name: crouchWalk
+        use: 0
+        canDelete: 0
+      - name: wall
+        use: 0
+        canDelete: 0
+      - name: wallLeft
+        use: 0
+        canDelete: 0
+      - name: wallRight
+        use: 0
+        canDelete: 0
+      - name: wallClimb
+        use: 0
+        canDelete: 0
+      - name: wallHold
+        use: 0
+        canDelete: 0
+      - name: wallSlide
+        use: 0
+        canDelete: 0
+      - name: wallHang
+        use: 0
+        canDelete: 0
+      - name: wallSlideJump
+        use: 0
+        canDelete: 0
+      - name: wallCornerGrabStatic
+        use: 0
+        canDelete: 0
+      - name: wallCornerGrabMoving
+        use: 0
+        canDelete: 0
+      - name: recoil
+        use: 0
+        canDelete: 0
+      - name: recoilLeft
+        use: 0
+        canDelete: 0
+      - name: recoilRight
+        use: 0
+        canDelete: 0
+      - name: recoilUp
+        use: 0
+        canDelete: 0
+      - name: recoilDown
+        use: 0
+        canDelete: 0
+      - name: recoilShake
+        use: 0
+        canDelete: 0
+      - name: recoilSlide
+        use: 0
+        canDelete: 0
+      - name: mouseDirectionLeft
+        use: 0
+        canDelete: 0
+      - name: mouseDirectionRight
+        use: 0
+        canDelete: 0
+      - name: meleeCombo
+        use: 0
+        canDelete: 0
+      - name: alwaysTrue
+        use: 1
+        canDelete: 0
+      - name: alwaysFalse
+        use: 0
+        canDelete: 0
+      extra:
+      - name: robotDeath
+        use: 1
+        canDelete: 0
+      foldOutVelocity: 0
+      foldOutWall: 0
+      foldOutWorld: 0
+      foldOutRecoil: 0
+      foldOutAttack: 0
+      foldOutUtility: 0
+      foldOutExtra: 0
+      button: 0
+      createSignal: 
+  setToFirst: 1
+  sort: 0
+  add: 0
+  active: 0
+  foldOut: 1
+  open: 0
+  delete: 0
+  deleteAsk: 0
+  spriteMenu: 0
+  eventFoldOut: 0
+  spritesFoldOut: 0
+  loopOnceFoldOut: 0
+  transitionFoldOut: 0
+  createTransition: 0
+  shiftNames: 0
+  shiftProperty: 0
+  signalIndex: 0
+  tabIndex: 0
+  previewArea: 0
+  scrollPosition: {x: 0, y: 0}
+  offsetPosition: {x: 29.999992, y: 29.999992}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  playInInspector: 0
+  playInScene: 0
+  resetPlayFrame: 0
+  frameCounter: 0
+  frameTimer: 0
+  zoom: 0.75
+  propertyFoldOut: 0
+  resetSprites: 1
+  propertyIndex: 0
+  rendererSprite: {fileID: 0}
+  settingRenderer: 0
+  spriteIndex: 3
+  scrollIndex: 0
+  sprites:
+  - property: []
+    frame:
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: -118337667, guid: 45f61c26aebc9754cb417be93c015900, type: 3}
+      rate: 0.22222222
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    onLoopOnce:
+      m_PersistentCalls:
+        m_Calls: []
+    loopStartIndex: 0
+    loopOnce: 0
+    name: Idle
+    canSync: 0
+    syncID: 0
+    lastFrame: 0
+    rememberLastFrame: 0
+    randomAnimations: []
+    isRandom: 0
+    transition: []
+    hasTransition: 0
+    hasChangedDirection: 0
+    active: 0
+    frameIndex: 0
+    signalIndex: 0
+    globalRate: 4.5
+    transitionFoldOut: 0
+    addTransition: 0
+    deleteTransition: 0
+    canDelete: 0
+  - property: []
+    frame:
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: -1428119057, guid: 45f61c26aebc9754cb417be93c015900, type: 3}
+      rate: 0.10526316
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: -872394898, guid: 45f61c26aebc9754cb417be93c015900, type: 3}
+      rate: 0.10526316
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: -1333213544, guid: 45f61c26aebc9754cb417be93c015900, type: 3}
+      rate: 0.10526316
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: 1838433429, guid: 45f61c26aebc9754cb417be93c015900, type: 3}
+      rate: 0.10526316
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: 1943900433, guid: 45f61c26aebc9754cb417be93c015900, type: 3}
+      rate: 0.10526316
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: -940727607, guid: 45f61c26aebc9754cb417be93c015900, type: 3}
+      rate: 0.10526316
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    onLoopOnce:
+      m_PersistentCalls:
+        m_Calls: []
+    loopStartIndex: 0
+    loopOnce: 0
+    name: Run
+    canSync: 0
+    syncID: 0
+    lastFrame: 0
+    rememberLastFrame: 0
+    randomAnimations: []
+    isRandom: 0
+    transition: []
+    hasTransition: 0
+    hasChangedDirection: 0
+    active: 0
+    frameIndex: 5
+    signalIndex: 0
+    globalRate: 9.5
+    transitionFoldOut: 0
+    addTransition: 0
+    deleteTransition: 0
+    canDelete: 0
+  - property: []
+    frame:
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: -4380390473780055806, guid: 47f23d8a1717b4a41b9c643a2f7239ba, type: 3}
+      rate: 0.10810811
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: -2259348248328845970, guid: 47f23d8a1717b4a41b9c643a2f7239ba, type: 3}
+      rate: 0.10810811
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: 463504850631060468, guid: 47f23d8a1717b4a41b9c643a2f7239ba, type: 3}
+      rate: 0.10810811
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: 5710359078280605200, guid: 47f23d8a1717b4a41b9c643a2f7239ba, type: 3}
+      rate: 0.10810811
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    onLoopOnce:
+      m_PersistentCalls:
+        m_Calls: []
+    loopStartIndex: 0
+    loopOnce: 0
+    name: Jump
+    canSync: 0
+    syncID: 0
+    lastFrame: 0
+    rememberLastFrame: 0
+    randomAnimations: []
+    isRandom: 0
+    transition: []
+    hasTransition: 0
+    hasChangedDirection: 0
+    active: 0
+    frameIndex: 0
+    signalIndex: 0
+    globalRate: 9.25
+    transitionFoldOut: 0
+    addTransition: 0
+    deleteTransition: 0
+    canDelete: 0
+  - property: []
+    frame:
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: -848296183, guid: 45f61c26aebc9754cb417be93c015900, type: 3}
+      rate: 0.057142857
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    - onEnterFrame:
+        m_PersistentCalls:
+          m_Calls: []
+      sprite: {fileID: -421027549, guid: 45f61c26aebc9754cb417be93c015900, type: 3}
+      rate: 0.057142857
+      add: 0
+      delete: 0
+      eventFoldOut: 0
+    onLoopOnce:
+      m_PersistentCalls:
+        m_Calls: []
+    loopStartIndex: 0
+    loopOnce: 1
+    name: Death
+    canSync: 0
+    syncID: 0
+    lastFrame: 0
+    rememberLastFrame: 0
+    randomAnimations: []
+    isRandom: 0
+    transition: []
+    hasTransition: 0
+    hasChangedDirection: 0
+    active: 0
+    frameIndex: 1
+    signalIndex: 0
+    globalRate: 17.5
+    transitionFoldOut: 0
+    addTransition: 0
+    deleteTransition: 0
+    canDelete: 0
+  spriteSwap: {fileID: 0}
+  flipType: 0
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &5742754479700442218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba8b3a46e7082549bb69e1edee74ea7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  world:
+    climbSlopes: 1
+    rotateToSlope: 0
+    rectifyInAir: 0
+    collideWorldOnly: 0
+    horizontalCorners: 1
+    useMovingPlatform: 1
+    useMovingPlatformMomentum: 1
+    rotateToWall: 0
+    useBridges: 0
+    jumpThroughEdge: 1
+    maxSlopeAngle: 45
+    rotateRate: 0.5
+    crushedWE: 
+    skipDownEdge: 0
+    onCrushed:
+      m_PersistentCalls:
+        m_Calls: []
+    box:
+      rays: {x: 3, y: 2}
+    rotateTo: 0
+    foldOut: 0
+    eventsFoldOut: 0
+    crushedFoldOut: 0
+  signals:
+    spriteEngine: {fileID: 0}
+  turnOffSignals: 0
+  pushBackActive: 0
+  executeInLateUpdate: 0
+  mainFoldOut: 1
+  canUseTool: 1
+  onToolSet:
+    m_PersistentCalls:
+      m_Calls: []
+  setVelocity: {x: 0, y: 0}
+  root: {fileID: 2629562260462496903}
+  thisIsPlayer: 0
+  resetToActive: 0
+  movingPlatformGravity: 0
+  gravity:
+    jumpHeight: 20
+    jumpTime: 1
+    multiplier: 1
+    terminalVelocity: 40
+  damage:
+    layer:
+      serializedVersion: 2
+      m_Bits: 0
+    direction: 0
+    canDealDamage: 0
+    pauseTimer: 0
+    damage: 1
+    force: 1
+    counter: 0
+    damageFoldOut: 0
+    pauseDamage: 0
+    pauseDamageTimer: 0
+  data:
+  - {fileID: 8947201113788992321}
+  - {fileID: 5137017408998187517}
+  - {fileID: 7916406465762518930}
+  - {fileID: 2019169580452999454}
+  - {fileID: 2067790602174156437}
+  - {fileID: 903772591098462078}
+  - {fileID: 4782070216334784358}
+  tempChildren: []
+  units:
+  - {fileID: 0}
+  - {fileID: 0}
+  inspectNode: {fileID: 2303866910295785523}
+  nodeMessage:
+    position: {x: 0, y: 0}
+    size: {x: 0, y: 0}
+    message: 
+    isDragged: 0
+  oldGUIMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  tempNameType: 
+  inspectNameType: IgnoreBlockUnits
+  barIndex: 1
+  tempUnits: 0
+  menuIndex: 0
+  deleteIndex: 0
+  signalIndex: -1
+  panX: 798.29034
+  panY: -1.5597358
+  snapToGrid: 10
+  scaling: 1.3000001
+  add: 0
+  active: 0
+  foldOut: 0
+  foundNodes: 0
+  settingsFoldOut: 0
+  showNodeMessage: 0
+  isSelectingNodes: 0
+  blackboardFoldOut: 1
+  collisionSettings: 0
+  aNodeIsBeingDragged: 0
+  window: {fileID: 0}
+  selectSize: {x: 0, y: 0}
+  selectPosition: {x: 0, y: 0}
+  ScrollPosition: {x: 0, y: 0}
+  startHoldPoint: {x: 220, y: 232}
+  stateActionIndex: {x: -1, y: -1}
+  reset: {fileID: 903772591098462078}
+--- !u!114 &2629562260462496903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1353c2b8524781a42a64ea27a9fd7d10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 0
+  nodeParent: {fileID: 0}
+  completed: 0
+  nameType: Root
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 315, y: -15}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  canInterrupt: 0
+  onInterrupt: 0
+  children:
+  - {fileID: 7877368625289168894}
+  - {fileID: 888917192026028155}
+  defaultSignal: Signal
+  useSignal: 0
+  currentChildIndex: 0
+  pause: 0
+--- !u!114 &8947201113788992321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd6fcfb4e17af7479520cf00c02ac35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataName: Pathfinding
+  blackboardType: 0
+  hasNoTargets: 0
+  foldOut: 1
+  delete: 0
+  deleteAsk: 0
+  refName: []
+  followSpeed: 8
+  ceilingSpeed: 6
+  ladderSpeed: 6
+  wallSpeed: 6
+  ignoreUnits: 0
+  pauseAfterJump: 0
+  map: {fileID: 0}
+  stateMachine:
+  - foldOut: 0
+  - foldOut: 0
+  - foldOut: 0
+  - foldOut: 0
+  - foldOut: 0
+  - foldOut: 0
+  - foldOut: 0
+--- !u!114 &7877368625289168894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940b372a1b7aeed40b28b441570ae93c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 0
+  nodeParent: {fileID: 2629562260462496903}
+  completed: 0
+  nameType: Selector
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 45, y: 165}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message:
+  - position: {x: 105, y: 165}
+    size: {x: 60, y: 30}
+    message: Patrol and attack.
+    isDragged: 0
+  canInterrupt: 0
+  onInterrupt: 0
+  children:
+  - {fileID: 8433118026455837648}
+  - {fileID: 92251204743527941}
+  - {fileID: 7846553136514440037}
+  defaultSignal: Signal
+  useSignal: 0
+  currentChildIndex: 0
+--- !u!114 &8785167526178678382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 612e24512d2ea62448849b3b31363300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 7846553136514440037}
+  completed: 0
+  nameType: Pathfinder
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 210, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - Pathfinding
+  - Player
+  - Hello
+  - Player
+  message: []
+  pathfinding: {fileID: 8947201113788992321}
+  target: {fileID: 5137017408998187517}
+  findType: 1
+  findDistance: {x: 18, y: 3}
+  resetDistance: 3
+  useFindDistance: 1
+--- !u!114 &5137017408998187517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c035ee5e169a2c4187de1497e45f669, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataName: Player
+  blackboardType: 0
+  hasNoTargets: 0
+  foldOut: 1
+  delete: 0
+  deleteAsk: 0
+  refName: []
+  type: 0
+  offset: {x: 0, y: 0}
+  randomIndex: 0
+--- !u!114 &7846553136514440037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad050f830b931b64d88ee20761936e3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 0
+  nodeParent: {fileID: 7877368625289168894}
+  completed: 0
+  nameType: Sequence
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 240, y: 225}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message:
+  - position: {x: 300, y: 225}
+    size: {x: 80, y: 30}
+    message: Follow player and attack.
+    isDragged: 0
+  canInterrupt: 0
+  onInterrupt: 0
+  children:
+  - {fileID: 5900084956320083693}
+  - {fileID: 8785167526178678382}
+  - {fileID: 7064008789008171216}
+  - {fileID: 6659535648459167823}
+  - {fileID: 2892635252887368415}
+  defaultSignal: Signal
+  useSignal: 0
+  currentChildIndex: 0
+--- !u!114 &2892635252887368415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d84b4b0e2acb34596f0dd2b39c1225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 7846553136514440037}
+  completed: 0
+  nameType: Clock
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 435, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  type: 0
+  wait: 1
+  min: 0
+  max: 5
+  dontReset: 0
+  waitAnimation: Shoot
+  onBeginClock:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3549017235787317152}
+        m_TargetAssemblyTypeName: TwoBitMachines.WorldEngine2D.Firearm, Assembly-CSharp
+        m_MethodName: Fire
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onFinishClock:
+    m_PersistentCalls:
+      m_Calls: []
+  eventsFoldOut: 0
+  beginFoldOut: 0
+  finishFoldOut: 0
+--- !u!114 &92251204743527941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad050f830b931b64d88ee20761936e3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 0
+  nodeParent: {fileID: 7877368625289168894}
+  completed: 0
+  nameType: Sequence
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -135, y: 225}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message:
+  - position: {x: -75, y: 225}
+    size: {x: 80, y: 30}
+    message: If player not in range, go home.
+    isDragged: 0
+  canInterrupt: 3
+  onInterrupt: 0
+  children:
+  - {fileID: 7346973118961048909}
+  - {fileID: 4187525119579700942}
+  - {fileID: 6893850373344221055}
+  - {fileID: 6659782724294637302}
+  - {fileID: 3888559925399980723}
+  - {fileID: 2352689135297798433}
+  defaultSignal: Signal
+  useSignal: 0
+  currentChildIndex: 0
+--- !u!114 &7916406465762518930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f15aca995a94c47a2cdad732962cce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataName: Territory
+  blackboardType: 1
+  hasNoTargets: 0
+  foldOut: 1
+  delete: 0
+  deleteAsk: 0
+  refName: []
+  bounds:
+    position: {x: 7, y: -43.5}
+    size: {x: 135.875, y: 26.875}
+  oldPosition: {x: 11.75, y: -37.75, z: 0}
+  focus: 0
+--- !u!114 &7346973118961048909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94848afa983c9304192fee989f646515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 0
+  nodeParent: {fileID: 92251204743527941}
+  completed: 0
+  nameType: Inverter
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -330, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  canInterrupt: 0
+  onInterrupt: 0
+  children:
+  - {fileID: 1667333572187380295}
+  defaultSignal: Signal
+  useSignal: 0
+  currentChildIndex: 0
+--- !u!114 &4187525119579700942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d84b4b0e2acb34596f0dd2b39c1225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 92251204743527941}
+  completed: 0
+  nameType: Clock
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -255, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  type: 0
+  wait: 1
+  min: 0
+  max: 5
+  dontReset: 0
+  waitAnimation: 
+  onBeginClock:
+    m_PersistentCalls:
+      m_Calls: []
+  onFinishClock:
+    m_PersistentCalls:
+      m_Calls: []
+  eventsFoldOut: 0
+  beginFoldOut: 0
+  finishFoldOut: 0
+--- !u!114 &2352689135297798433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53b4911ca7c8102469524d7aa86ca4f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 92251204743527941}
+  completed: 0
+  nameType: Idle
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 45, y: 285}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+--- !u!114 &7064008789008171216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d468cec011ddabd468d10383d2f8e1f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 7846553136514440037}
+  completed: 0
+  nameType: FaceTarget
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 285, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - Player
+  - Hello
+  - Player
+  message: []
+  target: {fileID: 5137017408998187517}
+  type: 0
+  spriteRenderer: {fileID: 7162592100124862294}
+--- !u!114 &888917192026028155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad050f830b931b64d88ee20761936e3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 0
+  nodeParent: {fileID: 2629562260462496903}
+  completed: 0
+  nameType: Sequence
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 600, y: 165}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message:
+  - position: {x: 660, y: 165}
+    size: {x: 80, y: 30}
+    message: Flash when damaged.
+    isDragged: 0
+  canInterrupt: 0
+  onInterrupt: 0
+  children:
+  - {fileID: 3283045236045373823}
+  - {fileID: 6372370453497477559}
+  defaultSignal: Signal
+  useSignal: 0
+  currentChildIndex: 0
+--- !u!114 &6372370453497477559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62188917b3df7b2409b10e325b6dc373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 888917192026028155}
+  completed: 0
+  nameType: DamageFlash
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 645, y: 225}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  type: 1
+  spriteRenderer: {fileID: 7162592100124862294}
+  flashes: 2
+  interval: 0.15
+  useImmediately: 1
+  color: {r: 1, g: 1, b: 1, a: 1}
+  material: {fileID: 2100000, guid: 950df9dcbc53ccd43999d87310eb9d6d, type: 2}
+--- !u!114 &8433118026455837648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad050f830b931b64d88ee20761936e3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 0
+  nodeParent: {fileID: 7877368625289168894}
+  completed: 0
+  nameType: Sequence
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -705.00006, y: 225}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message:
+  - position: {x: -645.00006, y: 225}
+    size: {x: 80, y: 30}
+    message: Check if dead.
+    isDragged: 0
+  canInterrupt: 2
+  onInterrupt: 0
+  children:
+  - {fileID: 8951544207578365087}
+  - {fileID: 1315180601935981215}
+  - {fileID: 1365533385701102187}
+  - {fileID: 4228963500117375429}
+  - {fileID: 6374402915957415880}
+  - {fileID: 52170732370015923}
+  - {fileID: 1011379006943318179}
+  - {fileID: 2303866910295785523}
+  defaultSignal: Signal
+  useSignal: 0
+  currentChildIndex: 0
+--- !u!114 &4228963500117375429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d84b4b0e2acb34596f0dd2b39c1225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 8433118026455837648}
+  completed: 0
+  nameType: Clock
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -720.00006, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  type: 0
+  wait: 3
+  min: 0
+  max: 5
+  dontReset: 0
+  waitAnimation: robotDeath
+  onBeginClock:
+    m_PersistentCalls:
+      m_Calls: []
+  onFinishClock:
+    m_PersistentCalls:
+      m_Calls: []
+  eventsFoldOut: 0
+  beginFoldOut: 0
+  finishFoldOut: 0
+--- !u!114 &1011379006943318179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f42f2b3ac1526247a5f30a629ad1f02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 8433118026455837648}
+  completed: 0
+  nameType: OnEvent
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -495, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  onEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2415938162751470852}
+        m_TargetAssemblyTypeName: TwoBitMachines.FlareEngine.WorldFloat, Assembly-CSharp
+        m_MethodName: Increment
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 10
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1365533385701102187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e53b5f8566b5040979377f7b4e592d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 8433118026455837648}
+  completed: 0
+  nameType: EnableBehaviour
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -795.00006, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  behaviourRef: {fileID: 2076786684429301171}
+  renderRef: {fileID: 0}
+  enable: 0
+--- !u!114 &6374402915957415880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e53b5f8566b5040979377f7b4e592d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 8433118026455837648}
+  completed: 0
+  nameType: EnableBehaviour
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -645.00006, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  behaviourRef: {fileID: 2076786684429301171}
+  renderRef: {fileID: 0}
+  enable: 1
+--- !u!114 &6659535648459167823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f42f2b3ac1526247a5f30a629ad1f02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 7846553136514440037}
+  completed: 0
+  nameType: OnEvent
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 360, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  onEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3549017235787317152}
+        m_TargetAssemblyTypeName: TwoBitMachines.FlareEngine.Firearm, Assembly-CSharp
+        m_MethodName: Shoot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2019169580452999454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d51cf067ed5a66f41b818bb8755eea06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataName: AITarget
+  blackboardType: 0
+  hasNoTargets: 0
+  foldOut: 1
+  delete: 0
+  deleteAsk: 0
+  refName: []
+  offset: {x: 0, y: 0}
+--- !u!114 &1667333572187380295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2d7549e6884f040a147156b3b3d482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 7346973118961048909}
+  completed: 0
+  nameType: FindTarget
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -330, y: 345.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - Player
+  - Territory
+  - Player
+  - Territory
+  - 
+  - 
+  - Territory
+  - Territory
+  - 
+  - Territory
+  - 
+  message: []
+  target: {fileID: 5137017408998187517}
+  findType: 2
+  radius: 0
+  mirror: 0
+  offset: {x: 0, y: 0}
+  distance: {x: 0, y: 0}
+  territory: {fileID: 7916406465762518930}
+--- !u!114 &8951544207578365087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1efde9d3064e014887a7bf32ff23bf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 8433118026455837648}
+  completed: 0
+  nameType: WorldFloatLogic
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -945.00006, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  variable: {fileID: 2415938162751470852}
+  logic: 4
+  compareTo: 0
+  compareFloat: 0
+  compareVariable: {fileID: 0}
+--- !u!114 &52170732370015923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9853be155dbe0d45aa961885be0e7b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 8433118026455837648}
+  completed: 0
+  nameType: SetTransform
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -570.00006, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - AI Transofrm
+  message: []
+  targetTransform: {fileID: 2067790602174156437}
+  type: 0
+  value: {x: 570, y: 9, z: 0}
+  time: 0.1
+  lerp: 0
+  positionType: 0
+  positionTransform: {fileID: 0}
+  positionTarget: {fileID: 0}
+--- !u!114 &2067790602174156437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2d75d48344248e48ba88067a9ba83df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataName: AI Transofrm
+  blackboardType: 2
+  hasNoTargets: 0
+  foldOut: 1
+  delete: 0
+  deleteAsk: 0
+  refName: []
+  value: {fileID: 7089518673108801179}
+--- !u!114 &1315180601935981215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7729f519589551c47b6e1f1610196624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 8433118026455837648}
+  completed: 0
+  nameType: IgnoreBlockUnits
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -870.00006, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - Pathfinding
+  - Hello
+  - Hello
+  message: []
+  pathfinding: {fileID: 8947201113788992321}
+  ignoreUnits: 1
+--- !u!114 &2303866910295785523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7729f519589551c47b6e1f1610196624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 8433118026455837648}
+  completed: 0
+  nameType: IgnoreBlockUnits
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -420, y: 285}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 1
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - Pathfinding
+  - Hello
+  - Hello
+  message: []
+  pathfinding: {fileID: 8947201113788992321}
+  ignoreUnits: 0
+--- !u!114 &903772591098462078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39e49b0b9a398d42ad22bb0045c335b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataName: Reset
+  blackboardType: 2
+  hasNoTargets: 0
+  foldOut: 1
+  delete: 0
+  deleteAsk: 0
+  refName: []
+  value: 0
+--- !u!114 &4782070216334784358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caff9791ae0609949a326a8e77530766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataName: PatrolPoint
+  blackboardType: 0
+  hasNoTargets: 0
+  foldOut: 1
+  delete: 0
+  deleteAsk: 0
+  refName: []
+  point: {x: 11.5, y: -37.25}
+  randomOffset: {x: 0, y: 0}
+  oldPosition: {x: 11.75, y: -37.75, z: 0}
+--- !u!114 &3283045236045373823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd4c42b47e57074abf31909d0b01227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 888917192026028155}
+  completed: 0
+  nameType: MonitorWorldFloat
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 555, y: 225}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  variable: {fileID: 2415938162751470852}
+  returnSuccess: 0
+--- !u!114 &6659782724294637302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940b372a1b7aeed40b28b441570ae93c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 0
+  nodeParent: {fileID: 92251204743527941}
+  completed: 0
+  nameType: Selector
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -105, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName: []
+  message: []
+  canInterrupt: 0
+  onInterrupt: 0
+  children:
+  - {fileID: 1928510213302150636}
+  - {fileID: 9163968006473598860}
+  defaultSignal: Signal
+  useSignal: 0
+  currentChildIndex: 0
+--- !u!114 &1928510213302150636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2d7549e6884f040a147156b3b3d482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 6659782724294637302}
+  completed: 0
+  nameType: FindTarget
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -150, y: 360.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - PatrolPoint
+  message: []
+  target: {fileID: 4782070216334784358}
+  findType: 0
+  radius: 0
+  mirror: 0
+  offset: {x: 0, y: 0}
+  distance: {x: 0, y: 0}
+  territory: {fileID: 0}
+--- !u!114 &9163968006473598860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 612e24512d2ea62448849b3b31363300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 6659782724294637302}
+  completed: 0
+  nameType: Pathfinder
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -60, y: 360.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - Pathfinding
+  - PatrolPoint
+  message: []
+  pathfinding: {fileID: 8947201113788992321}
+  target: {fileID: 4782070216334784358}
+  findType: 0
+  findDistance: {x: 1, y: 1}
+  resetDistance: 1
+  useFindDistance: 1
+--- !u!114 &6893850373344221055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7729f519589551c47b6e1f1610196624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 92251204743527941}
+  completed: 0
+  nameType: IgnoreBlockUnits
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -180, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - Pathfinding
+  message: []
+  pathfinding: {fileID: 8947201113788992321}
+  ignoreUnits: 1
+--- !u!114 &3888559925399980723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7729f519589551c47b6e1f1610196624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 92251204743527941}
+  completed: 0
+  nameType: IgnoreBlockUnits
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: -30, y: 285.00003}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - Pathfinding
+  message: []
+  pathfinding: {fileID: 8947201113788992321}
+  ignoreUnits: 0
+--- !u!114 &5900084956320083693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361388152522024247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7729f519589551c47b6e1f1610196624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeSetup: 0
+  nodeState: 0
+  nodeType: 1
+  nodeParent: {fileID: 7846553136514440037}
+  completed: 0
+  nameType: IgnoreBlockUnits
+  fsmChild: 
+  fsmIndex: 0
+  selectCounter: 10
+  failedCounter: 10
+  interruptCounter: 10
+  rectSize: {x: 60, y: 30}
+  rectPosition: {x: 135, y: 285}
+  add: 0
+  active: 0
+  delete: 0
+  deleteAsk: 0
+  showInfo: 0
+  failed: 0
+  foldOut: 0
+  inspect: 0
+  comments: 0
+  isDragged: 0
+  wasDragged: 0
+  rectActive: 1
+  copySelected: 0
+  hideChildren: 0
+  interruptCheck: 0
+  inspectSelected: 0
+  lookingForChild: 0
+  childActive: 0
+  openNext: 1
+  canHaveChildren: 1
+  refName:
+  - Pathfinding
+  message: []
+  pathfinding: {fileID: 8947201113788992321}
+  ignoreUnits: 0
+--- !u!1 &8999320469658239988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4529414036225922529}
+  - component: {fileID: 3549017235787317152}
+  m_Layer: 8
+  m_Name: FireArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4529414036225922529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999320469658239988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3634757590488449876}
+  m_Father: {fileID: 7089518673108801179}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3549017235787317152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999320469658239988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 239fcbc5d71d7ab4f81a2ea5b0efadeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toolName: FireArm
+  input: {fileID: 11400000, guid: 362ce92028d4fd14984eacf9884f5b99, type: 2}
+  localPosition: {x: 0, y: 1}
+  buttonTrigger: 4
+  pickUpLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  pickUpType: 0
+  pause: 0
+  pickUp: 0
+  foldOut: 1
+  mainFoldOut: 0
+  eventFoldOut: 0
+  rotateFoldOut: 1
+  autoseekFoldOut: 0
+  projectileFoldOut: 0
+  optionsFoldOut: 0
+  latchFoldOut: 0
+  lineOfSightFoldOut: 1
+  buttonName: Down
+  projectileInventory: {fileID: 0}
+  defaultProjectile:
+    waitForAnimation:
+      wait: 0
+      waitTime: 0
+      weaponAnimation: 
+      extraSignal: 
+      spriteEngine: {fileID: 0}
+    recoil:
+      type: 0
+      condition: 0
+      recoilDistance: 0.125
+      recoilTime: 0.1
+      hasGravity: 0
+      recoil: 0
+      foldOut: 1
+    projectile: {fileID: 0}
+    onFireSuccess:
+      m_PersistentCalls:
+        m_Calls: []
+    onOutOfAmmo:
+      m_PersistentCalls:
+        m_Calls: []
+    autoDischarge: 0
+    foldOut: 1
+    eventsFoldOut: 0
+    fireFoldOut: 0
+    outOfAmmoFoldOut: 0
+  chargedProjectile:
+    waitForAnimation:
+      wait: 0
+      waitTime: 0
+      weaponAnimation: 
+      extraSignal: 
+      spriteEngine: {fileID: 0}
+    recoil:
+      type: 0
+      condition: 0
+      recoilDistance: 0.125
+      recoilTime: 0.1
+      hasGravity: 0
+      recoil: 0
+      foldOut: 0
+    canCharge: 0
+    chargeMaxTime: 2
+    chargeMinTime: 2
+    dischargeTime: 3
+    coolDownTime: 0
+    damageBoost: 0
+    projectile: {fileID: 0}
+    recoilOnDischarge: 0
+    onCoolingDown:
+      m_PersistentCalls:
+        m_Calls: []
+    onDischarging:
+      m_PersistentCalls:
+        m_Calls: []
+    onCharging:
+      m_PersistentCalls:
+        m_Calls: []
+    onDischargingComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    onDischargingFailed:
+      m_PersistentCalls:
+        m_Calls: []
+    onChargingComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    onChargingBegin:
+      m_PersistentCalls:
+        m_Calls: []
+    percentCharged: 0
+    onDischargingCompleteFoldOut: 0
+    onDischargingFailedFoldOut: 0
+    onChargingCompleteFoldOut: 0
+    onChargingBeginFoldOut: 0
+    onDischargingFoldOut: 0
+    onChargingFoldOut: 0
+    onCoolDownFoldOut: 0
+    modifyFoldOut: 0
+    recoilFoldOut: 0
+    eventsFoldOut: 0
+    chargeFoldOut: 1
+  lineOfSight:
+    beam: {fileID: 0}
+    beamEnd: {fileID: 0}
+    lineOfSight: 0
+    onTargetHit:
+      m_PersistentCalls:
+        m_Calls: []
+    onBeamHit:
+      m_PersistentCalls:
+        m_Calls: []
+    onNothingHit:
+      m_PersistentCalls:
+        m_Calls: []
+    reticleType: 0
+    reticle: {fileID: 0}
+    layer:
+      serializedVersion: 2
+      m_Bits: 0
+    targetLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    reticleDistance: 10
+    maxLength: 100
+    autoShoot: 0
+    autoShootRate: 0.1
+    eventsFoldOut: 0
+    onBeamHitFoldOut: 0
+    onNothingHitFoldOut: 0
+    onTargetHitFoldOut: 0
+  rotate:
+    autoSeek:
+      layer:
+        serializedVersion: 2
+        m_Bits: 0
+      maxRadius: 10
+      searchRate: 0.5
+      autoShoot: 0
+      onFoundTarget:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsFoldOut: 0
+      onFoundTargetFoldOut: 0
+    transformDirection: {fileID: 0}
+    orientation: 0
+    rotate: 3
+    angleOffset: 0
+    maxLimit: 0
+    minLimit: 0
+    fixedAngle: 0
+    fixedDirection: {x: 0, y: 0}
+    joyStickDirection: {x: 0, y: 0}
+    diagonal: 0
+    usingMouse: 1
+    up: {fileID: 0}
+    down: {fileID: 0}
+    left: {fileID: 0}
+    right: {fileID: 0}
+    joyStick: {fileID: 0}
+    roundMouseDirection: 0
+    setRotationSignals: 0
+    roundMouse: 45
+  onActivated:
+    m_PersistentCalls:
+      m_Calls: []
+  firePoint: {fileID: 3634757590488449876}
+  stopTime: 0.25
+  stopVelocity: 0
+  turnOffNearWall: 0
+  offOnShoot: 0
+  stopType: 0
